@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res-auto/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.androidhive.loginandregistration.activity.MainActivity" >
+
+    <item android:title="@string/new_game"
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_launcher"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

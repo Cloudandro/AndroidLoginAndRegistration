@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "info.androidhive.loginandregistration"
+        minSdkVersion 15
+        targetSdkVersion 23
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.google.code.gson:gson:2.2.2'
+    //compile files('libs/gson-2.2.4.jar')
+    compile 'com.loopj.android:android-async-http:1.4.9'
+    //compile files('libs/android-async-http-1.4.4.jar')
+    //compile 'com.mcxiaoke.volley:library-aar:1.0.0'
+    compile 'com.android.volley:volley:1.0.0'
+}

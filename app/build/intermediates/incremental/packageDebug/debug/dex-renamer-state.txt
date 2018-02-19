@@ -1,0 +1,4 @@
+#Mon Feb 19 11:06:58 IST 2018
+base.0=C\:\\Users\\CloudAndro\\Desktop\\AndroidLoginAndRegistration\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
