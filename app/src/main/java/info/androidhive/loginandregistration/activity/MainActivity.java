@@ -97,7 +97,7 @@ public class MainActivity extends Activity {
                     (List<? extends Map<String, ?>>) userList,
                     R.layout.view_user_entry,
                     new String[] { "name", "email" },
-                    new int[] { R.id.name , R.id.email });
+                    new int[] { R.id.name , R.id.email });  
             ListView myList=(ListView)findViewById(android.R.id.list);
 			myList.setAdapter(adapter);
 			//Display Sync status of SQLite DB
